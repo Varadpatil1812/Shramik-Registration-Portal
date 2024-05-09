@@ -206,7 +206,7 @@ function closePopup() {
   load.classList.add("open-container1");
       document.getElementById("form").addEventListener("submit", async function() {
         const formData = new FormData(this);
-        const response = await fetch("https://api-production-5b4f.up.railway.app/api/worker/signup", {
+        const response = await fetch("https://api-production-e66f.up.railway.app/api/worker/signup", {
             method: "POST",
             body: formData
         });
